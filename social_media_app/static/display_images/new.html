@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script type="text/javascript">
+function myFunction() {
+var canvas = document.createElement('canvas');
+	var v=document.getElementById("hello");
+    var gh =canvas.toDataURL('jpeg');
+
+    var a  = document.createElement('a');
+    a.href = gh;
+    a.download = 'file:///C:/Users/excitement_0009.jpg';
+
+    a.click()
+    
+
+}
+</script>
+<div class="container">
+
+<button type = "submit" onclick="myFunction()" name = "learn" value = "myimage">
+   <img src="C:/Users/excitement_0009.jpg " id="hello"/>
+   
+
+</button>
+
+</div>
+</body>
+</html>
